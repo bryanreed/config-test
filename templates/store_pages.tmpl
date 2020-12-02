@@ -1,0 +1,16 @@
+---
+streamId = "account-2959448/locations"
+urlFormat = "{{.externalEntityId}}.html"
+---
+{{define "location.source" -}}
+<html> 
+	<body> 
+	  <h1> Store Details </h1>
+	  <h2>{{.name }} </h2>
+	  <p> {{.address }} </p>
+	  <p> {{.phone}} </p>
+      <p> {{.description}} </p>
+
+	</body> 
+</html> 
+{{end}}

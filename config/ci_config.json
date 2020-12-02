@@ -1,0 +1,25 @@
+{
+  "artifactStructure": {
+    "assets": [
+      {
+        "root": "assets"
+      },
+      {
+        "root": "pages"
+      }
+    ],
+    "goTemplates": [
+      {
+        "root": "templates"
+      }
+    ]
+  },
+  "build": {
+    "build_setup_cmd": "echo buildsetup",
+    "build_cmd": "echo build"
+  },
+  "livePreview": {
+    "serve_setup_cmd": "echo servesetup",
+    "serve_cmd": "echo serve"
+  }
+}
