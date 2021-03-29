@@ -14,6 +14,10 @@
       }
     ]
   },
+  "dependencies": {
+    "installDepsCmd": "echo install",
+    "requiredFiles": []
+  },
   "build": {
     "build_setup_cmd": "echo buildsetup",
     "build_cmd": "echo build"
