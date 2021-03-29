@@ -1,5 +1,5 @@
 {
-  "buildArtifacts": {
+  "artifactStructure": {
     "assets": [
       {
         "root": "assets"
@@ -18,7 +18,7 @@
     "installDepsCmd": "echo install",
     "requiredFiles": []
   },
-  "build": {
+  "buildArtifacts": {
     "buildSetupCmd": "echo buildsetup",
     "buildCmd": "echo build"
   },
