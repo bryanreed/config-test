@@ -1,5 +1,5 @@
 {
-  "artifactStructure": {
+  "buildArtifacts": {
     "assets": [
       {
         "root": "assets"
@@ -19,11 +19,11 @@
     "requiredFiles": []
   },
   "build": {
-    "build_setup_cmd": "echo buildsetup",
-    "build_cmd": "echo build"
+    "buildSetupCmd": "echo buildsetup",
+    "buildCmd": "echo build"
   },
   "livePreview": {
-    "serve_setup_cmd": "echo servesetup",
-    "serve_cmd": "echo serve"
+    "serveSetupCmd": "echo servesetup",
+    "serveCmd": "echo serve"
   }
 }
